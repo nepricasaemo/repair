@@ -1,11 +1,19 @@
+*
+  box-sizing: border-box
+    
 body
-    font-family: sans-serif
-    color: black
+  font-family: sans-serif
+  color: black
 img
   max-width: 100%
 .container 
   width: 1170px
   margin: auto
+.section
+  padding: 90px 0
+  &-title
+    font-size: 24px
+    font-weight: 700
 @media ( max-width: 1200px)
     .container
       width: 760px
@@ -18,3 +26,6 @@ img
   background-color: $main-color
   border: none
   padding: 18px 30px
+  &:hover
+    background-color: lighten($main-color, 10%)
+    cursor: pointer
