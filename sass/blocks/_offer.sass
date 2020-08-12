@@ -1,7 +1,46 @@
 .offer
+  background: url('/img/offer-photo.jpg') no-repeat
+  background-size: contain
+  background-position: center right
+  position: relative
+  ::before
+    content: ""
+    width: 50%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
   &-block
     width: 50%
     padding-right: 90px
+    position: relative
   &__title
     max-width: 360px
     line-height: 35px
+    margin-bottom: 24px
+  &__subtitle
+    max-width: 250px
+    margin-bottom: 30px
+  &__input
+    width: 240px
+    margin-bottom: 30px
+    &:first-child
+      margin-right: 10px
+  &__button
+    width: 100%
+    min-height: 70px
+    margin-bottom: 25px
+  &__text
+    max-width: 225px
+    display: flex
+    flex-direction: column
+    &:first-child
+      margin-right: 70px
+  &__comment
+    display: flex
+    flex-direction: row
+  &__phone
+    text-decoration: none
+    font-weight: 700
+    font-size: 15px
+    color: $text-color

@@ -26,6 +26,24 @@ img {
   font-weight: 700;
 }
 
+.section-subtitle {
+  font-size: 16px;
+  display: block;
+}
+
+.section-comment {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.input {
+  border: 1px solid #dddddd;
+  padding: 20px 26px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
 @media (max-width: 1200px) {
   .container {
     width: 760px;
@@ -239,13 +257,83 @@ img {
   font-style: normal;
 }
 
+.offer {
+  background: url("/img/offer-photo.jpg") no-repeat;
+  background-size: contain;
+  background-position: center right;
+  position: relative;
+}
+
+.offer ::before {
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .offer-block {
   width: 50%;
   padding-right: 90px;
+  position: relative;
 }
 
 .offer__title {
   max-width: 360px;
   line-height: 35px;
+  margin-bottom: 24px;
+}
+
+.offer__subtitle {
+  max-width: 250px;
+  margin-bottom: 30px;
+}
+
+.offer__input {
+  width: 240px;
+  margin-bottom: 30px;
+}
+
+.offer__input:first-child {
+  margin-right: 10px;
+}
+
+.offer__button {
+  width: 100%;
+  min-height: 70px;
+  margin-bottom: 25px;
+}
+
+.offer__text {
+  max-width: 225px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.offer__text:first-child {
+  margin-right: 70px;
+}
+
+.offer__comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.offer__phone {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  color: #333333;
 }
 /*# sourceMappingURL=style.css.map */
