@@ -103,10 +103,15 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar__button {
   margin-left: 30px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar__phone {
@@ -116,6 +121,8 @@ img {
   font-weight: 400;
   text-decoration: none;
   margin-top: 10px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -152,6 +159,8 @@ img {
   font-size: 32px;
   line-height: 55px;
   margin-bottom: 40px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hero-text__subtitle {
@@ -159,6 +168,8 @@ img {
   font-weight: 700;
   margin-bottom: 70px;
   display: inline-block;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hero-list {
@@ -199,6 +210,8 @@ img {
 
 .hero-list__text {
   max-width: 300px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 1200px) {
@@ -241,22 +254,6 @@ img {
   }
 }
 
-@font-face {
-  font-family: 'Museo';
-  src: url("/fonts/Museo300-Regular.eot");
-  src: url("/fonts/Museo300-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Museo300-Regular.woff") format("woff"), url("/fonts/Museo300-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Museo';
-  src: url("/fonts/Museo700-Regular.eot");
-  src: url("/fonts/Museo700-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Museo700-Regular.woff") format("woff"), url("/fonts/Museo700-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .offer {
   background: url("/img/offer-photo.jpg") no-repeat;
   background-size: contain;
@@ -284,16 +281,22 @@ img {
   max-width: 360px;
   line-height: 35px;
   margin-bottom: 24px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .offer__subtitle {
-  max-width: 250px;
+  max-width: 280px;
   margin-bottom: 30px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .offer__input {
   width: 240px;
   margin-bottom: 30px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .offer__input:first-child {
@@ -304,6 +307,8 @@ img {
   width: 100%;
   min-height: 70px;
   margin-bottom: 25px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .offer__text {
@@ -329,6 +334,8 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .offer__phone {
@@ -336,6 +343,8 @@ img {
   font-weight: 700;
   font-size: 15px;
   color: #333333;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 1200px) {

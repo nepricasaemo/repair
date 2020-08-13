@@ -19,18 +19,22 @@
     max-width: 360px
     line-height: 35px
     margin-bottom: 24px
+    +bold
   &__subtitle
-    max-width: 250px
+    max-width: 280px
     margin-bottom: 30px
+    +regular
   &__input
     width: 240px
     margin-bottom: 30px
+    +regular
     &:first-child
       margin-right: 10px
   &__button
     width: 100%
     min-height: 70px
     margin-bottom: 25px
+    +bold
   &__text
     max-width: 225px
     display: flex
@@ -40,11 +44,13 @@
   &__comment
     display: flex
     flex-direction: row
+    +regular
   &__phone
     text-decoration: none
     font-weight: 700
     font-size: 15px
     color: $text-color
+    +bold
 @media (max-width: 1200px)
   .offer
     background-size: cover
@@ -79,4 +85,3 @@
   .section
     padding-top: 50px
     padding-bottom: 55px
-   
